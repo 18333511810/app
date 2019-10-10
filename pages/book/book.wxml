@@ -1,0 +1,2 @@
+<!--pages/book/book.wxml-->
+<text>您的衣柜密码为:{{passwd}}</text>

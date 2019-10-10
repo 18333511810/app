@@ -1,0 +1,46 @@
+.lll {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 120rpx;
+  border: 1rpx solid #eee;
+}
+
+.eee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 150rpx;
+}
+
+.board-item {
+  flex: 1;
+  cursor: pointer;
+  border: 1rpx solid #eee;
+  margin-top: 30rpx;
+  padding: 30rpx;
+}
+
+.board-item image {
+  flex: 1;
+}
+
+.board-item image {
+  height: 20rpx;
+  width: 20rpx;
+}
+
+.images {
+  position: absolute;
+  margin-top: 10rpx;
+  right: 100rpx;
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.broken {
+  flex: 1;
+  position: absolute;
+  left: 450rpx;
+  height: 50rpx;
+}

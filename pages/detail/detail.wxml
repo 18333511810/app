@@ -1,0 +1,13 @@
+<view>
+    <view class="board-item" bindtap="bindViewTap">
+      <text>预约衣柜</text>
+      <image class="images" src="../../images/arrowright.png" mode="aspectFill"></image>
+    </view>
+
+  <navigator url="../state/state?id={{id}}" hover-class="none">
+    <view class="board-item">
+      <text>直接使用</text>
+      <image class="images" src="../../images/arrowright.png" mode="aspectFill"></image>
+    </view>
+  </navigator>
+</view>

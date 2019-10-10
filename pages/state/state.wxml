@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="slide">
+  </view>
+
+  <view class="describe">
+    <text></text>
+  </view>
+
+  <view class="board" wx:for="{{list}}" wx:key="key" wx:for-index="i" bindtap="bindViewTap" data-k="{{i}}" >
+    <view wx:if="{{i == recent}}">
+      <view class="board-item" style="background-color: #4CAF50;border-radius: 8px;">
+        <text>{{item}}</text>
+      </view>
+    </view>
+    <view wx:else>
+      <view class="board-item" style="border-radius: 8px;">
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+</view>

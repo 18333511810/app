@@ -1,0 +1,14 @@
+<!-- <view class="lll"  wx:for="{{list}}" wx:for-item="item" bindtap="bindViewTap" data-title="{{item.title}}" bindtap="tapName" id="{{item.id}}">
+    <view  class="eee" > 
+       <view style="margin:10rpx;font-size:30rpx"> {{item.title}}</view>
+       <view style="margin:5rpx;font-size:6rpx"> {{item.keywords}}</view>
+    </view>
+</view> -->
+
+<view>
+  <view class="board-item" bindtap="bindRepaireTap" wx:for="{{list}}" wx:key="{{item.value}}" data-id="{{item.id}}" data-item="{{item}}" wx:if="{{item.id}}">
+    <text>{{item.id}} 号衣架</text>
+    <text class="broken">{{item.state}} </text>
+    <image class="images" src="../../images/arrowright.png" mode="aspectFill"></image>
+  </view>
+</view>

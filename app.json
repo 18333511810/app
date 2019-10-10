@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/board/board",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/book/book",
+    "pages/state/state"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0097FF",
+    "navigationBarTitleText": "附近的衣柜",
+    "navigationBarTextStyle": "white"
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

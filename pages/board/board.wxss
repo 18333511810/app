@@ -1,0 +1,47 @@
+.slide swiper {
+  height: 300rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200rpx;
+  padding: 40rpx;
+}
+
+.board-item {
+  flex: 1;
+  cursor: pointer;
+  border: 1rpx solid #eee;
+  margin-top: 30rpx;
+  padding: 30rpx;
+}
+
+.board-item image {
+  flex: 1;
+}
+
+.board-item image {
+  height: 20rpx;
+  width: 20rpx;
+}
+
+.broken {
+  flex: 1;
+  position: absolute;
+  left: 500rpx;
+  height: 50rpx;
+}
+
+.images {
+  position: absolute;
+  margin-top: 10rpx;
+  right: 100rpx;
+  height: 50rpx;
+  width: 50rpx;
+}

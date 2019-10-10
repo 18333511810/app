@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="board">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 开始使用 </button>
+    <block wx:else>
+
+      <view class="board-item" bindtap="bindViewTap">
+        <text>龙泽苑 衣柜</text>
+        <image class="images" src="../../images/arrowright.png" mode="aspectFill"></image>
+      </view>
+
+      <view class="board-item" bindtap="bindRepaireTap">
+        <text>龙跃苑 衣柜</text>
+        <text class="broken">维修中</text>
+        <image class="images" src="../../images/arrowright.png" mode="aspectFill"></image>
+      </view>
+
+      <view class="board-item" bindtap="bindRepaireTap">
+        <text>龙腾苑 衣柜</text>
+        <text class="broken">维修中</text>
+        <image class="images" src="../../images/arrowright.png" mode="aspectFill"></image>
+      </view>
+      
+    </block>
+  </view>
+
+
+
+</view>
